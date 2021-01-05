@@ -1,0 +1,10 @@
+dependencies {
+    compile project(':api-support-core')
+    compile project(':api-support-common')
+}
+
+jar {
+    from {
+        configurations.compileClasspath.collect{zipTree(it)}
+    }
+}

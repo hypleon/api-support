@@ -1,0 +1,4 @@
+rootProject.name = 'api-support-parent'
+includeFlat 'api-support-core'
+includeFlat 'api-support-configuration'
+includeFlat 'api-support-common'
